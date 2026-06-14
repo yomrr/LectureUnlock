@@ -1,0 +1,28 @@
+{
+  "name": "Cache",
+  "type": "object",
+  "properties": {
+    "cache_key": {
+      "type": "string",
+      "description": "Unique cache key (video ID, video ID + mode, or video ID + query)"
+    },
+    "cache_type": {
+      "type": "string",
+      "enum": [
+        "transcript",
+        "agent_output",
+        "search_query"
+      ],
+      "description": "Type of cached data"
+    },
+    "value": {
+      "type": "string",
+      "description": "JSON-serialized cached value"
+    }
+  },
+  "required": [
+    "cache_key",
+    "cache_type",
+    "value"
+  ]
+}
