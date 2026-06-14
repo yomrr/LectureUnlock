@@ -112,7 +112,7 @@ Base44 has a 256KB field size limit. The full student JSON exceeded it causing s
 
 ## Architecture Diagram
 
-![LectureUnlock Architecture](./architecture.png)
+[View Architecture Diagram](./LectureUnlock_Architecture_Diagram%20(1).pdf)
 
 ---
 
