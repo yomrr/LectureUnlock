@@ -1,8 +1,8 @@
-# LectureUnlock 🔓
+# LectureUnlock 
 
 **A multi-agent AI system that transforms any YouTube lecture into a complete study environment for students and a private pedagogical audit tool for faculty.**
 
-🌐 **Live Demo:** [www.lectureunlock.com](https://www.lectureunlock.com)
+ **Live Demo:** [www.lectureunlock.com](https://www.lectureunlock.com)
 
 Built solo in 7 days for the No Resume Required Hackathon by Cloudforce. 
 Co-Winner | CEO Personal Recognition | 100+ builders competed.
@@ -14,17 +14,17 @@ Co-Winner | CEO Personal Recognition | 100+ builders competed.
 Paste any public YouTube lecture URL and LectureUnlock instantly produces:
 
 **For Students:**
-- 📋 Collapsible timestamped outline with clickable jump-points into the video
-- 📝 Three layered summaries — Quick (30 sec), Medium (2 min), Full (5 min)
-- 🃏 Flashcards with cited source timestamps
-- 🔍 Semantic search with full question classification
-- 🌍 Bilingual support — Spanish, French, Arabic, German
+-  Collapsible timestamped outline with clickable jump-points into the video
+-  Three layered summaries — Quick (30 sec), Medium (2 min), Full (5 min)
+- Flashcards with cited source timestamps
+-  Semantic search with full question classification
+-  Bilingual support — Spanish, French, Arabic, German
 
 **For Faculty:**
-- 📊 Five-dimension pedagogical scorecard with letter grades
-- 🎯 Prioritized action items with timestamped suggested rewrites
-- 🔒 Private report — never surveillance, always voluntary
-- ⚠️ Content error detection with exact timestamps
+-  Five-dimension pedagogical scorecard with letter grades
+-  Prioritized action items with timestamped suggested rewrites
+-  Private report — never surveillance, always voluntary
+-  Content error detection with exact timestamps
 
 ---
 
@@ -101,12 +101,12 @@ Base44 has a 256KB field size limit. The full student JSON exceeded it causing s
 
 ## Failure Modes Handled
 
-- ✅ Private or unavailable YouTube videos
-- ✅ Invalid URLs
-- ✅ Videos with no transcript available
-- ✅ Non-lecture content detection
-- ✅ Non-English transcripts — hard English output guardrail on all agents
-- ✅ Language mismatch in search — detection banner with switch option
+-  Private or unavailable YouTube videos
+-  Invalid URLs
+-  Videos with no transcript available
+-  Non-lecture content detection
+-  Non-English transcripts — hard English output guardrail on all agents
+-  Language mismatch in search — detection banner with switch option
 
 ---
 
@@ -121,8 +121,8 @@ Base44 has a 256KB field size limit. The full student JSON exceeded it causing s
 **Samson Ogunleye**
 sogunleye1218@gmail.com
 
-Cybersecurity Management and Policy — University of Maryland Global Campus
-Solutions Engineer Intern — Cloudflare (Summer & Fall 2026)
+Cybersecurity Master (cyber-ai) — The Johns Hopkins University
+Solutions Engineer Intern — Cloudflare 
 
 ---
 
