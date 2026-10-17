@@ -122,6 +122,7 @@ Base44 has a 256KB field size limit. The full student JSON exceeded it causing s
 sogunleye1218@gmail.com
 
 Cybersecurity Master (cyber-ai) — The Johns Hopkins University
+
 Solutions Engineer Intern — Cloudflare 
 
 ---
