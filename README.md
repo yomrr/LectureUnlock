@@ -15,10 +15,10 @@ Paste any public YouTube lecture URL and LectureUnlock instantly produces:
 
 **For Students:**
 -  Collapsible timestamped outline with clickable jump-points into the video
--  Three layered summaries — Quick (30 sec), Medium (2 min), Full (5 min)
+-  Three layered summaries: Quick (30 sec), Medium (2 min), Full (5 min)
 - Flashcards with cited source timestamps
 -  Semantic search with full question classification
--  Bilingual support — Spanish, French, Arabic, German
+-  Bilingual support: Spanish, French, Arabic, German
 
 **For Faculty:**
 -  Five-dimension pedagogical scorecard with letter grades
@@ -92,7 +92,7 @@ Students under time pressure need direct answers not conversations. One question
 Purpose-built translation APIs are 10-100x faster for the same output. Right tool for the right job.
 
 **Why single Sonnet call over parallel processing:**
-Parallel processing doubled transcript token input — both calls received the full transcript making things slower not faster. Reverted to single optimized call.
+Parallel processing doubled transcript token input and both calls received the full transcript making things slower not faster. Reverted to single optimized call.
 
 **Why four cache entries for student output:**
 Base44 has a 256KB field size limit. The full student JSON exceeded it causing silent save failures. Split into four entries mirrors the working faculty pattern.
@@ -105,8 +105,8 @@ Base44 has a 256KB field size limit. The full student JSON exceeded it causing s
 -  Invalid URLs
 -  Videos with no transcript available
 -  Non-lecture content detection
--  Non-English transcripts — hard English output guardrail on all agents
--  Language mismatch in search — detection banner with switch option
+-  Non-English transcripts: hard English output guardrail on all agents
+-  Language mismatch in search: detection banner with switch option
 
 ---
 
